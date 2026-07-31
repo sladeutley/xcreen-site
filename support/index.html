@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Support and troubleshooting information for Xcreen."
+    />
+    <link rel="icon" type="image/svg+xml" sizes="any" href="../favicon.svg?v=3" />
+    <title>Support · Xcreen</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --background: #f7f5f0;
+        --surface: #ffffff;
+        --ink: #16181d;
+        --muted: #69707d;
+        --border: #e2ded5;
+        --accent: #315ef5;
+        --accent-soft: #eef2ff;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--background);
+        color: var(--ink);
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-size: 17px;
+        line-height: 1.68;
+      }
+
+      main {
+        width: min(820px, calc(100% - 40px));
+        margin: 0 auto;
+        padding: 64px 0 80px;
+      }
+
+      .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 12px;
+        color: var(--ink);
+        text-decoration: none;
+      }
+
+      .brand img {
+        width: 42px;
+        height: 42px;
+      }
+
+      .brand-name {
+        font-size: 23px;
+        font-weight: 800;
+        letter-spacing: -0.02em;
+      }
+
+      article {
+        margin-top: 32px;
+        padding: clamp(28px, 7vw, 64px);
+        border: 1px solid var(--border);
+        border-radius: 30px;
+        background: var(--surface);
+        box-shadow: 0 20px 60px rgb(22 24 29 / 7%);
+      }
+
+      h1,
+      h2 {
+        line-height: 1.15;
+        letter-spacing: -0.035em;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(40px, 8vw, 58px);
+      }
+
+      h2 {
+        margin: 46px 0 0;
+        font-size: 27px;
+      }
+
+      p,
+      ol,
+      ul {
+        margin: 17px 0 0;
+        color: var(--muted);
+      }
+
+      ol,
+      ul {
+        padding-left: 25px;
+      }
+
+      li + li {
+        margin-top: 12px;
+      }
+
+      strong {
+        color: var(--ink);
+      }
+
+      a {
+        color: var(--accent);
+        font-weight: 700;
+      }
+
+      .summary,
+      .contact {
+        padding: 20px 22px;
+        border-radius: 18px;
+        background: var(--accent-soft);
+      }
+
+      .summary {
+        margin-top: 30px;
+        color: #3c4b75;
+      }
+
+      .contact {
+        margin-top: 20px;
+        border: 1px solid #ccd6ff;
+      }
+
+      .contact p {
+        margin-top: 8px;
+      }
+
+      .fine-print {
+        font-size: 14px;
+      }
+
+      footer {
+        margin-top: 28px;
+        color: var(--muted);
+        font-size: 13px;
+        text-align: center;
+      }
+
+      @media (max-width: 560px) {
+        body {
+          font-size: 16px;
+        }
+
+        main {
+          width: min(100% - 24px, 820px);
+          padding: 26px 0 44px;
+        }
+
+        .brand {
+          margin-left: 12px;
+        }
+
+        article {
+          margin-top: 24px;
+          border-radius: 22px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <a class="brand" href="../" aria-label="Xcreen home">
+        <img src="../favicon.svg?v=3" alt="" />
+        <span class="brand-name">Xcreen</span>
+      </a>
+
+      <article>
+        <h1>Xcreen Support</h1>
+        <p class="summary">
+          Need help using Xcreen or restoring Xcreen Pro? Start with the steps
+          below or contact us directly.
+        </p>
+
+        <h2>Getting started</h2>
+        <ol>
+          <li>Choose a curated background color or create a custom one.</li>
+          <li>Select the corner where you want the exit X to appear.</li>
+          <li>Tap <strong>Start cleaning</strong>.</li>
+          <li>When finished, hold the X for one second to return Home.</li>
+        </ol>
+        <p>
+          Xcreen keeps the display awake during cleaning. Ordinary taps inside
+          the cleaning screen do nothing, but system gestures may still be
+          enabled on your device.
+        </p>
+
+        <h2>Xcreen Pro and purchase restoration</h2>
+        <p>
+          Xcreen Pro is a one-time purchase that removes the Home banner and
+          enables the option to open Xcreen directly to your saved cleaning
+          screen.
+        </p>
+        <ul>
+          <li>
+            To purchase Pro, open <strong>Settings &amp; Help</strong> and tap
+            <strong>Get Xcreen Pro</strong>.
+          </li>
+          <li>
+            To recover a previous purchase, open the Xcreen Pro purchase screen
+            and tap <strong>Already purchased? Restore access</strong>.
+          </li>
+          <li>
+            Purchase access is associated with the Apple Account used for the
+            original App Store purchase. Confirm that the device uses that
+            account before restoring.
+          </li>
+        </ul>
+
+        <h2>Common questions</h2>
+        <p><strong>Why does Xcreen stay awake?</strong></p>
+        <p>
+          This is intentional so the cleaning surface remains visible. Hold the
+          X for one second to finish cleaning.
+        </p>
+        <p><strong>Why do I still see an advertisement after purchasing Pro?</strong></p>
+        <p>
+          Confirm that Settings &amp; Help shows Xcreen Pro as active. If it
+          does not, use <strong>Already purchased? Restore access</strong>. You
+          can also close and reopen Xcreen after restoration completes.
+        </p>
+        <p><strong>Why did Xcreen open on Home instead of the cleaning screen?</strong></p>
+        <p>
+          Automatic cleaning-screen startup is optional. Pro users can turn it
+          on from Settings &amp; Help. Your saved color and exit corner will be
+          used the next time Xcreen launches into cleaning mode.
+        </p>
+
+        <h2>Contact support</h2>
+        <div class="contact">
+          <strong>Email</strong>
+          <p>
+            <a href="mailto:schlauss.dev@gmail.com">schlauss.dev@gmail.com</a>
+          </p>
+          <p class="fine-print">
+            Please include your device model, iOS or iPadOS version, Xcreen app
+            version, and a description of what happened. Do not send passwords,
+            payment-card information, or other sensitive information. We aim to
+            respond within three business days.
+          </p>
+        </div>
+
+        <h2>Privacy</h2>
+        <p>
+          Learn how Xcreen and its service providers handle information in the
+          <a href="../privacy/">Xcreen Privacy Policy</a>.
+        </p>
+      </article>
+
+      <footer>&copy; 2026 Xcreen</footer>
+    </main>
+  </body>
+</html>
